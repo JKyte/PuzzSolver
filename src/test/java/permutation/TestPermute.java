@@ -1,3 +1,5 @@
+package permutation;
+
 import org.junit.Test;
 
 public class TestPermute {
@@ -6,7 +8,7 @@ public class TestPermute {
     public void testPermute(){
         String searchSpace = "ABC";
 
-        Permutation permutation = new Permutation();
+        Permutation permutation = new Permutation("start", "end");
         permutation.permutation(searchSpace);
     }
 }

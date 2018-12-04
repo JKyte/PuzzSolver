@@ -1,10 +1,14 @@
+package permutation;
+
+import core.AlgorithmCore;
+
 /**
  * Credit to https://stackoverflow.com/questions/4240080/generating-all-permutations-of-a-given-string
  */
-public class Permutation {
+public class Permutation extends AlgorithmCore {
 
-    public Permutation() {
-
+    public Permutation(String start, String end) {
+        super(start, end);
     }
 
     public void permutation(String str) {

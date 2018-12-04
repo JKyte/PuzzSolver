@@ -1,3 +1,5 @@
+package combination;
+
 import org.junit.Test;
 
 public class TestCombination {
@@ -6,7 +8,7 @@ public class TestCombination {
     public void testCombination(){
         String searchSpace = "AB";
 
-        Combination combination = new Combination();
+        Combination combination = new Combination("start", "end");
         combination.combination(searchSpace);
     }
 }

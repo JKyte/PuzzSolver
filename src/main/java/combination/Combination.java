@@ -1,10 +1,14 @@
+package combination;
+
+import core.AlgorithmCore;
+
 /**
  * Credit to https://www.geeksforgeeks.org/print-all-combinations-of-given-length/
  */
-public class Combination {
+public class Combination extends AlgorithmCore {
 
-    public Combination() {
-
+    public Combination(String start, String end) {
+        super(start, end);
     }
 
     /**

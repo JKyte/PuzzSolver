@@ -1,3 +1,5 @@
+package core;
+
 /**
  * Main class that handles puzzle solving.
  */
